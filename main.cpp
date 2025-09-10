@@ -1,15 +1,28 @@
 // Assignment 1 - Fuel Range
-// TODO: YOUR NAME HERE
+// TODO: Cody Leonard
 #include <iostream>
-// TODO: Add the "using" statement
+
+// using directive to skip typing std:: each line
+using namespace std;
 
 int main() {
-  // TODO: Declare your variables, with comments for each
+  // Variables
+  double tankSize;   // the size of the fuel tank in gallons
+  double mpg;        // miles per gallon the car gets
+  double range;      // total distance the car can travel
 
-  // TODO: Prompt for and input the required values
+  // Prompt user for input
+  cout << "Enter the fuel tank size (in gallons): ";
+  cin >> tankSize;
 
-  // TODO: Calculate the results
+  cout << "Enter the miles per gallon (MPG): ";
+  cin >> mpg;
 
-  // TODO: Output the results
-  
+  // Calculate range
+  range = tankSize * mpg;
+
+  // Output result
+  cout << "The car can travel approximately " << range << " miles on a full tank." << endl;
+
+  return 0;
 }
