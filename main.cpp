@@ -27,7 +27,7 @@ int main() {
   range = (percentFull * tankSize)/100 * mpg;
 
   // Output result
-  cout << "The car can travel approximately " << range << " miles at its current percentage of fuel" << endl;
+  cout << "The vehicle can travel approximately " << range << " miles on the remaining fuel" << endl;
 
   return 0;
 }
